@@ -1,0 +1,23 @@
+blade Template
+---.blade.php
+parent template(free space eg @yield('--') )
+--------------------------
+child
+	-parent ko extends 
+	eg
+		@extends('backendtemplate.blade.php')
+		@section('content')
+		----
+		----
+		----
+		@endsection
+----------------------------
+homework
+---------
+	-CEUD (sweet alert)
+	  -custom input validation errors
+	  -image upload in update process
+	  -delete images from storage if changes
+
+	 -categories,brands,subcategories(CRUD) 
+	 -Upload into github repo
